@@ -18,6 +18,8 @@ frontend:
         - npm run build
         - ls -la
         - pwd
+        - cd .next
+        - ls -la
   artifacts:
     baseDirectory: .next
     files:
